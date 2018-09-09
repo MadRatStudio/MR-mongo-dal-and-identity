@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>MRDb</AssemblyName>
+    <RootNamespace>MRDb</RootNamespace>
+    <PackageId>MRDbMongo</PackageId>
+    <Authors>Oleh Tymofieiev</Authors>
+    <Company>Mad Rat Studio</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.7.0" />
+  </ItemGroup>
+
+</Project>
